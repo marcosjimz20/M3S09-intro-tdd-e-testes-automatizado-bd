@@ -1,7 +1,7 @@
-package br.lab365.labcar.service;
+package br.lab365.labcar.services;
 
-import br.lab365.labcar.repository.CarroRepository;
-import br.lab365.labcar.model.CarroModel;
+import br.lab365.labcar.repositories.CarroRepository;
+import br.lab365.labcar.models.CarroModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

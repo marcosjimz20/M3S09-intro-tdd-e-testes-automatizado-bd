@@ -1,6 +1,6 @@
-package br.lab365.labcar.service;
+package br.lab365.labcar.services;
 
-import br.lab365.labcar.model.CarroModel;
+import br.lab365.labcar.models.CarroModel;
 
 import java.util.List;
 

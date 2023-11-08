@@ -1,6 +1,8 @@
-package br.lab365.labcar.model;
+package br.lab365.labcar.models;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
@@ -12,13 +14,17 @@ public class UsuarioModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank
     @Column(nullable = false)
     private String nome;
 
+    @Email
+    @NotBlank
     @Column(nullable = false)
     private String email;
 
-    @Column(nullable = false)
+    @NotBlank
+    @Column(length = 8, nullable = false)
     private String senha;
 
 }

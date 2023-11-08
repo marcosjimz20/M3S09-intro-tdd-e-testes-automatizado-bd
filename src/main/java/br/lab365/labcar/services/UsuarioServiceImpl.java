@@ -1,7 +1,7 @@
-package br.lab365.labcar.service;
+package br.lab365.labcar.services;
 
-import br.lab365.labcar.model.UsuarioModel;
-import br.lab365.labcar.repository.UsuarioRepository;
+import br.lab365.labcar.models.UsuarioModel;
+import br.lab365.labcar.repositories.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
 @Service

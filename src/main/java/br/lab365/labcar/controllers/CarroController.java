@@ -1,7 +1,7 @@
-package br.lab365.labcar.controller;
+package br.lab365.labcar.controllers;
 
-import br.lab365.labcar.model.CarroModel;
-import br.lab365.labcar.service.CarroService;
+import br.lab365.labcar.models.CarroModel;
+import br.lab365.labcar.services.CarroService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

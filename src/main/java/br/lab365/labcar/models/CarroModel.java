@@ -1,4 +1,4 @@
-package br.lab365.labcar.model;
+package br.lab365.labcar.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
